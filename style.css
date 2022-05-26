@@ -54,20 +54,26 @@ h2.subtitulos{
     padding-top: 20px;
     width: 300px;
 }
-div#ficha_tecnica{
+div.ficha_tecnica{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
     background-color: white;
-    height: 780px;
+    height: 650px;
+    max-width: 1400px;
     padding-left: 30px;
+    background-image: url(imagens/predio.jpeg.jpeg);
+    background-size: cover;
+    background-size: 600px;
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-ul > li{
+.ficha_tecnica > ul > li{
     padding: 15px;
     margin-left: 30px;
     font-size: 15px;
 }
-img.predio{
-    float: right;
-    height: auto;
-    max-width: 100%;
+.ficha_tecnica > p{
+    max-width: 600px;
 }
 div#ficha_tecnica > p{
     margin-left: 30px;
@@ -77,7 +83,6 @@ div#ficha_tecnica > p{
 	opacity: 0;
 	transform: translate3D(-50px, 0px, 0px);
 }
-
 .js .anime-init {
 	opacity: 1;
 	transform: translate3D(0px, 0px, 0px);
