@@ -79,6 +79,15 @@ div#ficha_tecnica > p{
     margin-left: 30px;
     text-align: left;
 }
+div.plantas_apt{
+    max-width: 1400px;
+    height: 500px;
+}
+img.planta{
+    height: 400px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
 .js .anime {
 	opacity: 0;
 	transform: translate3D(-50px, 0px, 0px);
