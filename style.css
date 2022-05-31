@@ -82,11 +82,19 @@ div#ficha_tecnica > p{
 div.plantas_apt{
     max-width: 1400px;
     height: 500px;
+    background-color: white;
 }
-img.planta{
+.coluna{
+    display: inline-block;
     height: 400px;
-    padding-left: 30px;
-    padding-top: 20px;
+    max-width: 400px;
+}
+.img_planta{
+    max-width: 400px;
+    height: 400px;
+    padding-left: 80px;
+    margin: 10px;
+    border: 2px solid black;
 }
 .js .anime {
 	opacity: 0;
