@@ -79,6 +79,11 @@ div#ficha_tecnica > p{
     margin-left: 30px;
     text-align: left;
 }
+.img_lazer1{
+    display: inline-block;
+    height: 400px;
+    max-width: 400px;
+}
 div.plantas_apt{
     max-width: 1400px;
     height: 500px;
@@ -99,7 +104,7 @@ div.plantas_apt{
 .img_planta:hover{
     -moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+    transform: scale(1.1);
 }
 .js .anime {
 	opacity: 0;
